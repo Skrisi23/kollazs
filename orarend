@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Órarend</title>
+</head>
+<body style="background-color: grey;">
+
+
+    <table border="3">
+        <tr style="background-color: red;">
+            <th></td>
+            <td>Hétfő</td>
+            <td>Kedd</td>
+            <td>Szerda</td>
+            <td>Csütörtök</td>
+            <td>Péntek</td>
+        </tr>
+        <tr style="background-color: red;">
+            <td>0.óra</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Programozási alapok</td>
+            <td></td>
+        </tr>
+        <tr style="background-color: red;">
+            <td>1.óra</td>
+            <td>Angol</td>
+            <td>Andol</td>
+            <td>Matek</td>
+            <td>Programozási alapok</td>
+            <td></td>
+        </tr>
+        <tr style="background-color: white;">
+            <td>2.óra</td>
+            <td>Osztályfőnöki</td>
+            <td>Nyelvtan</td>
+            <td>Történelem</td>
+            <td>Infó éss távközlés</td>
+            <td>Komplex természettud</td>
+        </tr>
+        <tr style="background-color: white;">
+            <td>3.óra</td>
+            <td>Magyar nyelv (komp)</td>
+            <td>Komlex természettud</td>
+            <td>Irodalom</td>
+            <td>Infó és távközlés</td>
+            <td>Tesi</td>
+        </tr>
+        <tr style="background-color: white;">
+            <td>4.óra</td>
+            <td>Tesi</td>
+            <td>Matek</td>
+            <td>IKT projektmunka</td>
+            <td>Infó és távközlés</td>
+            <td>Tesi</td>
+        </tr>
+        <tr style="background-color: white;">
+            <td>5.óra</td>
+            <td>Munkavállalói ismeret</td>
+            <td>Történelem</td>
+            <td>Digitális kult</td>
+            <td>Matek</td>
+            <td>Metek (komp)</td>
+        </tr>
+        <tr style="background-color: green;">
+            <td>6.óra</td>
+            <td>Történelem</td>
+            <td>Irodalom</td>
+            <td>Digitális kultúra</td>
+            <td>Nyelvtan</td>
+            <td>Matek</td>
+        </tr>
+        <tr style="background-color: green;">
+            <td>7.óra</td>
+            <td></td>
+            <td>Tesi</td>
+            <td>Angol</td>
+            <td>Komplex természettud</td>
+            <td></td>
+        </tr>
+        <tr style="background-color: green;">
+            <td>8.óra</td>
+            <td></td>
+            <td>Tesi</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    
+</body>
+</html>
