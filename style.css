@@ -1,6 +1,7 @@
 body{
+    @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
     margin: 0;
-    font-family: "Lato", sans-serif;
+    font-family:'Neonderthaw', cursive;
   }
   button{
       border-radius: 25px;
