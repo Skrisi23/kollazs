@@ -5,6 +5,18 @@ body{
     background-color: skyblue;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: blue;
+    text-align: center;
+ }
+ footer a {
+   color: orange;
+ }
 
 
 img{
