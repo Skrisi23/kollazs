@@ -30,8 +30,10 @@ body{
   }
   
   .sidebar a.active {
-    background-color: #0615e8;
-    color: white;
+    font-family: 'Neonderthaw', cursive;
+  font-size: 30px;
+  background-color:blue;
+  color: yellow;
   }
   
   .sidebar a:hover:not(.active) {
