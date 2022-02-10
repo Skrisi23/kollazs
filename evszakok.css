@@ -6,18 +6,18 @@ body{
 }
 
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: green;
-    color: blue;
-    text-align: center;
- }
- .footer a {
-   color: orange;
- }
-
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: green;
+      color: orange ;
+      text-align: center;
+   }
+  
+   .footer a {
+     color: orange;
+   }
 
 img{
     border-radius: 10%;
