@@ -4,6 +4,21 @@ body{
     font-family:'Neonderthaw', cursive;
      
   }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: green;
+    color: blue;
+    text-align: center;
+ }
+ .footer a {
+   color: orange;
+ }
+
+
   button{
       border-radius: 25px;
       background-color: rgb(0, 245, 245);
@@ -69,21 +84,4 @@ body{
         float: none;
     }
   }
-
-.footer{
-    
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      background-color: green;
-      color: orangered;
-      text-align: center;
-   }
-
-
- .footer a {
-   color: orange;
- }
-
 
