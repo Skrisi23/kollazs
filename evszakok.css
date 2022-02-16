@@ -21,8 +21,8 @@ body{
 
 img{
     border-radius: 10%;
-    width: 300px;
-    margin: 30px;
+    width: 200px;
+    margin: 20px;
     height: 182px;
     transition: 1s;
 }
