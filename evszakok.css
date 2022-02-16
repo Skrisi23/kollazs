@@ -7,10 +7,10 @@ body{
 
 
 img{
-     border: 5px solid black;
-    border-radius: 5%;
-    width: 200px;
-    margin:20px;
+     border: 2px solid gray;
+    border-radius: 2%;
+    width: 300px;
+    margin:30px;
     transition: 1s;
 }
 *{
