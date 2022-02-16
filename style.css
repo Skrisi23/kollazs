@@ -31,7 +31,7 @@ body{
     .sidebar {
       margin: 0;
       padding: 0;
-      width: 200px;
+      width: 150px;
       background-color: #c6d400;
       position: fixed;
       height: 100%;
@@ -41,13 +41,13 @@ body{
     .sidebar a {
       display: block;
       color: black;
-      padding: 16px;
+      padding: 13px;
       text-decoration: none;
     }
     
     .sidebar a.active {
       font-family: 'Neonderthaw', cursive;
-    font-size: 30px;
+    font-size: 20px;
     background-color:blue;
     color: yellow;
     }
