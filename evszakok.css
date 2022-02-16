@@ -7,8 +7,7 @@ body{
 
 
 img{
-     border: 2px solid gray;
-    border-radius: 2%;
+    border-radius: 10%;
     width: 300px;
     margin:30px;
     transition: 1s;
