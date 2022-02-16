@@ -24,6 +24,7 @@ img{
 }
 
 .evszakok{
+    float: left;
     float: right;
 }
 
