@@ -1,0 +1,15 @@
+img{
+width: 400px;
+height: 350px;
+border-radius: 200px;
+}
+
+body{
+    background-color: purple;
+    
+}
+
+td{
+    color: lime;
+    text-align: center;
+}
