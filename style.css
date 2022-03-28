@@ -1,8 +1,82 @@
-img{
-width: 400px;
-height: 350px;
-}
-
 body{
-    background-color: skyblue;
-}
+    @import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+      margin: 0;
+      font-family:'Neonderthaw', cursive;
+     }
+
+
+  .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: green;
+      color: orange ;
+      text-align: center;
+   }
+
+   .footer a {
+     color: orange;
+   }
+
+    a{
+      color: rgb(0, 94, 94);
+      text-decoration: none;
+    }
+    .sidebar {
+      margin: 0;
+      padding: 0;
+      width: 150px;
+      background-color: #c6d400;
+      position: fixed;
+      height: 100%;
+      overflow: auto;
+    }
+
+    .sidebar a {
+      display: block;
+      color: black;
+      padding: 13px;
+      text-decoration: none;
+    }
+
+    .sidebar a.active {
+      font-family: 'Neonderthaw', cursive;
+    font-size: 20px;
+    background-color:blue;
+    color: yellow;
+    }
+
+    .sidebar a:hover:not(.active) {
+      background-color: rgb(190, 0, 0);
+      color: white;
+    }
+
+    div.content {
+      margin-left: 200px;
+      padding: 1px 16px;
+      height: 1000px;
+    }
+
+    @media screen and (max-width: 700px) {
+      .sidebar {
+          width: 100%;
+          height: auto;
+          position: relative;
+      }
+
+      .sidebar a {
+          float: left;
+      }
+
+      div.content {
+          margin-left: 0;
+      }
+    }
+
+    @media screen and (max-width: 400px) {
+      .sidebar a {
+          text-align: center;
+          float: none;
+      }
+    }
