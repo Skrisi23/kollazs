@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pitagorasz</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="Favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+
+</head>
+<body style="background-color:skyblue">
+    <div>
+        <a class="active" href="https://skrisi23.github.io/kollazs/">Főoldal</a>
+            <a href="https://skrisi23.github.io/kollazs/mikrofon.html">Mikrofon</a>
+            <a href=" https://skrisi23.github.io/kollazs/Listak.html">Listák</a>
+            <a href="https://skrisi23.github.io/kollazs/orarend.html">Órarend</a>
+            <a href="https://skrisi23.github.io/kollazs/evszakok.html">Évszakok</a>
+        <a href="https://skrisi23.github.io/kollazs/urlap.html">Űrlap</a>
+        <a href="https://skrisi23.github.io/kollazs/gamerpc.html">GamerPC</a>
+        <a href="https://skrisi23.github.io/kollazs/szamologep.html">Számológép</a>
+        <a href="https://skrisi23.github.io/kollazs/masolas.html">Másolás</a>
+        <a href="https://skrisi23.github.io/kollazs/pitagorasz.html">Pitagorasz</a>
+    </div>
+
+    <input type="number" name="a" id="var_a" placeholder="a értéke"><br>
+    <input type="number" name="b" id="var_b" placeholder="b értéke"><br><br>
+    <button onclick="pita(var_a.value, var_b.value)">c értéke = </button>
+    <p style="border: 1px solid black; width: 145px; height: 20px; border-radius: 3px;" id="eredmeny"></p>
+    <script>
+        function pita(a, b) {
+            document.getElementById('eredmeny').innerHTML = Math.sqrt(a * a + b * b)
+        }
+    </script>
+
+<div class="footer">
+    <p>Elérhetőségem</p>
+    <a id="footer a" href="email:somikrisi@gmail.com">email:  somikrisi@gmail.com</a>
+    <a id="footer a" href="tel:06309081033">tel:  06309081033</a>
+  </div>
+
+</body>
+</html>
