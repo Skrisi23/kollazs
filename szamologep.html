@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Számológép</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="Favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="Favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="Favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="Favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="Favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="Favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="Favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="Favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="Favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="Favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+    <link rel="manifest" href="Favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="Favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <style>
+        .but {
+            width: 77px;
+        }
+        .inp {
+            width: 220px;
+        }
+        fieldset{
+            width: fit-content;
+        }
+        body{
+            background-color: purple;
+            }
+        div{
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <div class="sidebar">
+        <a class="active" href="https://skrisi23.github.io/kollazs/">Főoldal</a>
+            <a href="https://skrisi23.github.io/kollazs/mikrofon.html">Mikrofon</a>
+            <a href=" https://skrisi23.github.io/kollazs/Listak.html">Listák</a>
+            <a href="https://skrisi23.github.io/kollazs/orarend.html">Órarend</a>
+            <a href="https://skrisi23.github.io/kollazs/evszakok.html">Évszakok</a>
+        <a href="https://skrisi23.github.io/kollazs/urlap.html">Űrlap</a>
+        <a href="https://skrisi23.github.io/kollazs/gamerpc.html">GamerPC</a>
+        
+        </div>
+
+<div>
+
+        <legend>Számológép</legend>
+        <form action="javascript:void(0);">
+            <input class="inp" type="number" name="nbr" id="x_ert" placeholder="x érték" required><br>
+            <input class="inp" type="number" name="nbr" id="y_ert" placeholder="y érték" required><br>
+            <input class="but" type="button" value="Összeadás" onclick="osszead()"> <input type="text" id="ossz" readonly>
+            <br>
+            <input class="but" type="button" value="Kivonás" onclick="kivon()"> <input type="text" id="kiv" readonly> <br>
+            <input class="but" type="button" value="Szorzás" onclick="szorz()"> <input type="text" id="szor" readonly> <br>
+            <input class="but" type="button" value="Osztás" onclick="oszt()"> <input type="text" id="osztas" readonly> <br>
+            <input class="but" type="submit" name="sub" id="subm" value="SZÁMOLD KI MINDET!" onclick="osszead();kivon();szorz();oszt()">
+        </form>
+    </fieldset>
+</div>
+    <script>
+        function osszead() {
+            ossz.value = (Number(x_ert.value) + Number(y_ert.value))
+        }
+
+        function kivon(x, y) {
+            kiv.value = (Number(x_ert.value) - Number(y_ert.value))
+        }
+
+        function szorz(x, y) {
+            szor.value = (Number(x_ert.value) * Number(y_ert.value)).toFixed(2)
+        }
+
+        function oszt(x, y) {
+            osztas.value = (Number(x_ert.value) / Number(y_ert.value)).toFixed(2)
+        }
+    </script>
+
+    
+</body>
+</html>
